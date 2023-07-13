@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8"/>
+      <meta name="viewport" width="device-width, initial-scale=1.0"/>
+      <link rel="stylesheet" href="screennew.css"/>
+      <title>TibikaApp</title>
+    </head>
+
+    <body>
+      <div class="container">
+
+      <header class="header">
+      </header>
+      
+
+      <form id="screennew-form">
+
+        <fieldset>
+            <legend>Client Bio Data</legend>
+        <div class="form-group">
+        <label id="id-label" for="id">ID Number***</label>
+        <input type="number" id="id" class="form-control" required="">
+        </div>
+
+        <div class="form-group">
+        <label id="firstname-label" for="firstname">First Name***</label>
+        <input type="text" id="firstname" class="form-control" required="">
+        </div>
+
+        <div class="form-group">
+        <label id="lastname-label" for="lastname">Last Name***</label>
+        <input type="text" id="lastname" class="form-control" required="">
+        </div>
+
+        <div class="form-group">
+        <label id="dob-label" for="dob">DOB***</label>
+        <input type="date" id="dob" class="form-control" required="">
+        </div>
+
+        <div class="form-group">
+        <label id="nationality-label" for="nationality">Nationality</label>
+        <select id="dropdown" class="form-control" name="nationality">
+          <option value="kenya">Kenya</option>
+          <option value="uganda">Uganda</option>
+        </select>
+        </div>
+
+        <div class="form-group">
+        <label id="mobilenumber-label" for="mobilenumber">Mobile Number(07)**</label>
+        <input type="number" id="mobilenumber" class="form-control" minlength="10" maxlength="10" required="">
+        </div>
+
+        <div class="form-group">
+        <label id="alternatenumber-label" for="alternatenumber">Alternate Number(07)**</label>
+        <input type="number" id="alternatenumber" class="form-control" minlength="10" maxlength="10" required="">
+        </div>
+
+        <div class="form-group">
+        <label id="clienttargetgroup-label" for="clienttargetgroup">Client Target Group</label>
+        <select id="dropdown" class="form-control" name="clienttargetgroup">
+            <option value="truckdriver">TRUCK DRIVER</option>
+            <option value="msm">MSM</option>
+            <option value="ccstreetfamily">CC STREET FAMILY</option>
+            <option value="fsws">FSWS</option>
+            <option value="plhiv">PLHIV</option>
+            <option value="pwid">PWID</option>
+            <option value="ccseaman">CC SEA MAN</option>
+            <option value="ccpwud">CC PWUD</option>
+            <option value="ccalcoholics">CC ALCOHOLICS</option>
+            <option value="ccturnman/lady">CC TURN MAN/LADY</option>
+            <option value="ccvendors/trader">CC VENDORS/TRADER</option>
+            <option value="ccmatatusector">CC MATATU SECTOR</option>
+            <option value="cchotspotdweller">CC HOTSPOT DWELLER</option>
+            <option value="cctransportcompanyworkers">CC TRANSPORT COMPANY WORKERS</option>
+            <option value="cchotspotowner">CC HOTSPOT OWNER</option>
+        </select>
+        </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Gender</legend>
+        <div class="form-group">
+        <label><input type="radio" id="malegender" class="input-radio" value="malegender">Male</label>
+
+        <label><input type="radio" id="femalegender" class="input-radio" value="femalegender">Female</label>
+        </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Location</legend>
+        <div class="form-group">
+        <label id="county-label" for="county">County</label>
+        <input type="text" id="county" class="form-control" required="" placeholder="Mombasa County">
+        </div>
+
+        <div class="form-group">
+        <label id="subcounty-label" for="subcounty">Select Sub County</label> 
+        <select id="dropdown" class="form-control" name="subcounty">
+          <option value="nyali">Nyali</option>
+          <option value="changamwe">Changamwe</option>
+          <option value="jomvu">Jomvu</option>
+          <option value="likoni">Likoni</option>
+          <option value="mvita">Mvita</option>
+          <option value="kisauni">Kisauni</option>
+        </select>
+        </div>
+
+        <div class="form-group">
+        <label id="commonplace-label" for="commonplace">County</label>
+        <input type="text" id="commonplace" class="form-control" required="">
+        </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>TB screening Questions</legend>
+        <div class="form-group">
+        <label><input type="checkbox" id="cough" class="input-checkbox" name="tbscreening" value="cough">Cough Any Duration/Kikohozi</label>
+
+        <label><input type="checkbox" id="history" class="input-checkbox" name="tbscreening" value="history">History of contact with TB Patient</label>
+
+        <label><input type="checkbox" id="fever" class="input-checkbox" name="tbscreening" value="fever">Fever</label>
+
+        <label><input type="checkbox" id="fatigue" class="input-checkbox" name="tbscreening" value="fatigue">Fatigue/Reduced Playfulness</label>
+
+        <label><input type="checkbox" id="nightsweats" class="input-checkbox" name="tbscreening" value="nightsweats">Night Sweats</label>
+      
+        <label><input type="checkbox" id="weightloss" class="input-checkbox" name="tbscreening" value="weightloss">Weight Loss/Failure to Thrive</label>
+
+        <label><input type="checkbox" id="chestpain" class="input-checkbox" name="tbscreening" value="chestpain">Chest Pain</label>
+        </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>TB Screening Score</legend>
+        <div class="form-group">
+        <input type="text" id="screeningscore" class="form-control">
+        </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Take Sputum:Fill in the Label</legend>
+        <div class="form-group">
+        <input type="text" id="takesputum" class="form-control">
+        </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>TB Referral</legend>
+        <div class="form-group">
+        <label id="rwc-label" for="rwc">Select RWC</label> 
+        <select id="dropdown" class="form-control" name="rwc">
+            <option value="notapplicable">Not Applicable</option>
+            <option value="miritinicdf">Miritini CDF</option>
+            <option value="shimoannexdispensary">Shimo Annex dispensary</option>
+            <option value="mlaleohealthcenter">Mlaleo health centre</option>
+            <option value="kongoweahealthcenter">Kongowea Health Center</option>
+            <option value="shimohealthcenter">Shimo Health Center</option>
+            <option value="mikindanihealthcenter">Mikindani Health Center</option>
+            <option value="chaanisubcounty">Chaani sub County hospital</option>
+            <option value="ganjonidispensary">Ganjoni Dispensary</option>
+            <option value="jundadispensary">Junda Dispensary</option>
+            <option value="jomvumodelhealthcenter">Jomvu model Health Center</option>
+            <option value="utangedispensary">Utange Dispensary</option>
+            <option value="likonisubcountyhospital">Likoni Sub County Hospital</option>
+            <option value="majengodispensary">Majengo Dispensary</option>
+            <option value="mwembetayari">Mwembe Tayari</option>
+            <option value="tudorsubcountyhospital">Tudor Sub County Hospital</option>
+            <option value="portreitz">Port Reitz</option>
+            <option value="coastgeneralhospital">Coast General Hospital</option>
+            <option value="bomuhospital">Bomu Hospital</option>
+            <option value="magongodispensary">Magongo dispensary</option>
+            <option value="jomvurwc">Jomvu RWC</option>
+            <option value="kipevurwc">Kipevu RWC</option>
+        </select>
+        </div>
+        </fieldset>
+
+      <div class="form-group">
+        <button type="submit" id="save-button" class="save-button">Save</button>
+      </div>
+
+      <div class="form-group">
+        <button type="submit" id="reset-button" class="reset-button">Reset</button>
+      </div>
+
+       </form>
+     </div>
+   </body>
+  </html>

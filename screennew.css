@@ -1,0 +1,70 @@
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    background: darkblue;
+}
+
+form {
+    background: white;
+    text-align: center; 
+    width: auto;
+    height: auto;
+    border-radius: 0.5rem;
+    padding: 2.5rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 10%);
+}
+
+.form-group {
+    padding: 0.25rem;
+}
+
+.form-control {
+    display: block;
+    width: 250px;
+    height: 2.375rem;
+    padding: 0.5rem 0.75rem;
+    color: rgba(0,0,0,1);
+    border: 1px solid grey;
+  }
+
+  label {
+    display: flex;
+    align-items:flex-start;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+
+  legend{
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+
+  .save-button {
+    display: block;
+    padding: 0.75rem;
+    width: 250px;
+    height: 2.375rem;
+    background: skyblue;
+    color: white;
+    cursor: pointer;
+    border: none; 
+}
+
+.reset-button {
+    display: block;
+    padding: 0.75rem;
+    width: 250px;
+    height: 2.375rem;
+    background: skyblue;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
