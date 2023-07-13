@@ -24,7 +24,7 @@ form {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, 50%)
+    transform: translate(-50%, 10%);
 }
 
 .form-group {
@@ -59,7 +59,7 @@ p {
     margin-top: 20px;
   }
 
-.register-button-login {
+.register-button {
     display: block;
     padding: 0.75rem;
     width: 250px;
