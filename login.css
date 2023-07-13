@@ -1,0 +1,73 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1rem;
+    font-weight: 400;
+    position: relative;
+    background: darkblue;
+}
+
+.lock-icon{
+    font-size: 50px;
+}
+
+form {
+    background: white;
+    text-align: center; 
+    width: auto;
+    height: auto;
+    border-radius: 0.5rem;
+    padding: 2.5rem;
+    padding-top: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 50%)
+}
+
+.form-group {
+    padding: 0.25rem;
+}
+
+.form-control {
+    display: block;
+    width: 250px;
+    height: 2.375rem;
+    padding: 0.75rem 0.75rem;
+    color: rgba(0,0,0,1);
+    border: 1px solid grey;
+  }
+
+.signin-button {
+    display: block;
+    padding: 0.75rem;
+    width: 250px;
+    height: 2.375rem;
+    background: orangered;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: black;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+.register-button-login {
+    display: block;
+    padding: 0.75rem;
+    width: 250px;
+    height: 2.375rem;
+    background: darkgray;
+    color: white;
+    cursor: pointer;
+    border: none;
+  }
+
+
